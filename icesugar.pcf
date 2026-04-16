@@ -1,0 +1,36 @@
+# For the iCESugar Board (iCE40UP5K-QFN48)
+
+set_io -nowarn LED_G 41
+set_io -nowarn LED_R 40
+set_io -nowarn LED_B 39
+
+set_io -nowarn SW[0] 18
+set_io -nowarn SW[1] 19
+set_io -nowarn SW[2] 20
+set_io -nowarn SW[3] 21
+
+set_io -nowarn clk   35
+
+# Note: RX(4), TX(6), USB_DP(10), USB_DN(9) removed —
+# those pins are shared with PMOD1 and caused conflicts.
+
+# PMOD 1 — DA2 connection
+#   P1_1  (pin 10) = ~SYNC  → pmod_cs_n
+#   P1_2  (pin  6) = DINA   → pmod_mosi
+#   P1_4  (pin 48) = SCLK   → pmod_sclk
+#   P1_9  (pin 47) = clockout (spare)
+set_io -nowarn pmod_cs_n     10
+set_io -nowarn pmod_mosi      6
+set_io -nowarn pmod_mosi_b      3
+set_io -nowarn pmod_sclk     48
+set_io -nowarn pmod_clockout 47
+
+# PMOD 2
+set_io -nowarn P2_1     46
+set_io -nowarn P2_2     44
+set_io -nowarn P2_3     42
+set_io -nowarn P2_4     37
+set_io -nowarn P2_9     36
+set_io -nowarn P2_10    38
+set_io -nowarn P2_11    43
+set_io -nowarn P2_12    45

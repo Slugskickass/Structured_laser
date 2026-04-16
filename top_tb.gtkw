@@ -1,0 +1,14 @@
+[*] GTKWave display configuration for 'apio sim top_tb.v'
+[*] THIS FILE WAS GENERATED AUTOMATICALLY BY APIO.
+[*] DO NOT EDIT IT MANUALLY!
+[*] To customize this file, run 'apio sim top_tb.v'
+[*] and save the file from GTKWave.
+
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+
+[*]
+top_tb.clk
+top_tb.pmod_clockout
+top_tb.pmod_cs_n
+top_tb.pmod_mosi
+top_tb.pmod_sclk
