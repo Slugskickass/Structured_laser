@@ -1,25 +1,12 @@
 // =============================================================================
-// top.v — streams 1024-entry LUT to PMOD DA2, looping forever.
-//
-// Pipeline:
-//   frame_end (CS rises, cycle 0):  addr increments
-//   cycle 1:                        addr_d1 settles (registered, glitch-free)
-//   cycle 1 also:                   frame_end_d1 fires
-//   cycle 2:                        BRAM outputs lut_data for addr_d1
-//                                   dac_word_reg latches lut_data (frame_end_d2)
-//   frame_start (CS falls):         DAC shift register loads dac_word_reg
-//
-// The extra addr_d1 stage ensures the BRAM always sees a fully settled address,
-// avoiding the race where addr increments and is read in the same clock edge.
-// With a 4-cycle CS-high window (counters 252-255) there is sufficient margin.
 // =============================================================================
 
 module top (
     input  wire clk,
 
-    output wire pmod_cs_n,
-    output wire pmod_mosi,
-    output wire pmod_mosi_b,
+    output wire pmod_cs_n, 
+    output wire pmod_mosi, // Channel One Data
+    output wire pmod_mosi_b, // Channel Two Data
     output wire pmod_sclk,
     output wire pmod_clockout
 );
