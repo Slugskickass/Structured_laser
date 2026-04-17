@@ -20,7 +20,7 @@ SB_PLL40_PAD #(
     .FEEDBACK_PATH("SIMPLE"),
     .DIVR(4'b0000),
     .DIVF(7'b0111111),
-    .DIVQ(3'b100),
+    .DIVQ(3'b011),
     .FILTER_RANGE(3'b001)
 ) u_pll (
     .PACKAGEPIN    (clk),
@@ -69,11 +69,6 @@ SB_PLL40_PAD #(
     // -------------------------------------------------------------------------
     wire [11:0] lut_data;
     wire [11:0] squ_data;
-   // mem_controller u_mem (
-   //     .clk      (clk),
-   //     .addr     (addr_d1),   // use registered address — no same-cycle race
-   //     .data_out (lut_data)
-   // );
 
     dual_mem_controller u_dual_mem (
         .clk      (pll_clk),
@@ -81,8 +76,8 @@ SB_PLL40_PAD #(
         .data_out_a (lut_data),
         .data_out_b (squ_data)
     );
-
-    
+// Can we split this again to give us two separate dual_mem_controllers? 
+// One for a 512 square and the other for a 1024 triangle?
 
     // -------------------------------------------------------------------------
     // Step 4: two-stage delay on frame_end to align with BRAM output latency

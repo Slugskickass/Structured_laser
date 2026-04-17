@@ -12336,7 +12336,7 @@
       "attributes": {
         "hdlname": "top",
         "top": "00000000000000000000000000000001",
-        "src": "top.v:4.1-121.10"
+        "src": "top.v:4.1-116.10"
       },
       "ports": {
         "clk": {
@@ -13210,7 +13210,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "top.v:102.5-108.12|/Users/ashleycadby/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "top.v:97.5-103.12|/Users/ashleycadby/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -13232,7 +13232,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "top.v:102.5-108.12|/Users/ashleycadby/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "top.v:97.5-103.12|/Users/ashleycadby/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -13254,7 +13254,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "top.v:102.5-108.12|/Users/ashleycadby/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "top.v:97.5-103.12|/Users/ashleycadby/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -13276,7 +13276,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "top.v:102.5-108.12|/Users/ashleycadby/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "top.v:97.5-103.12|/Users/ashleycadby/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -13298,7 +13298,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "top.v:102.5-108.12|/Users/ashleycadby/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "top.v:97.5-103.12|/Users/ashleycadby/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -13320,7 +13320,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "top.v:102.5-108.12|/Users/ashleycadby/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "top.v:97.5-103.12|/Users/ashleycadby/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -13342,7 +13342,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "top.v:102.5-108.12|/Users/ashleycadby/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "top.v:97.5-103.12|/Users/ashleycadby/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -13364,7 +13364,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "top.v:102.5-108.12|/Users/ashleycadby/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "top.v:97.5-103.12|/Users/ashleycadby/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -13386,7 +13386,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "top.v:102.5-108.12|/Users/ashleycadby/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "top.v:97.5-103.12|/Users/ashleycadby/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -13408,7 +13408,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "top.v:102.5-108.12|/Users/ashleycadby/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "top.v:97.5-103.12|/Users/ashleycadby/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -13430,7 +13430,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "top.v:102.5-108.12|/Users/ashleycadby/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "top.v:97.5-103.12|/Users/ashleycadby/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -13452,7 +13452,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "top.v:102.5-108.12|/Users/ashleycadby/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
+            "src": "top.v:97.5-103.12|/Users/ashleycadby/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:5.57-5.103"
           },
           "port_directions": {
             "C": "input",
@@ -13594,7 +13594,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "top.v:94.5-97.8|/Users/ashleycadby/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:2.51-2.90"
+            "src": "top.v:89.5-92.8|/Users/ashleycadby/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:2.51-2.90"
           },
           "port_directions": {
             "C": "input",
@@ -13614,7 +13614,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "top.v:94.5-97.8|/Users/ashleycadby/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:2.51-2.90"
+            "src": "top.v:89.5-92.8|/Users/ashleycadby/.apio/packages/oss-cad-suite/libexec/../share/yosys/ice40/ff_map.v:2.51-2.90"
           },
           "port_directions": {
             "C": "input",
@@ -13813,7 +13813,7 @@
           },
           "attributes": {
             "cell_module_not_derived": "00000000000000000000000000000001",
-            "cell_src": "top.v:111.28-119.6",
+            "cell_src": "top.v:106.28-114.6",
             "module": "pmod_da2_2c_controller",
             "module_hdlname": "pmod_da2_2c_controller",
             "module_src": "pmod_da2_2c_controller.v:6.1-64.10"
@@ -15072,7 +15072,7 @@
           },
           "attributes": {
             "cell_module_not_derived": "00000000000000000000000000000001",
-            "cell_src": "top.v:78.25-83.6",
+            "cell_src": "top.v:73.25-78.6",
             "module": "dual_mem_controller",
             "module_hdlname": "dual_mem_controller",
             "module_src": "dual_mem_controller.v:6.1-32.10"
@@ -15694,7 +15694,7 @@
           "type": "SB_PLL40_PAD",
           "parameters": {
             "DIVF": "0111111",
-            "DIVQ": "100",
+            "DIVQ": "011",
             "DIVR": "0000",
             "FEEDBACK_PATH": "SIMPLE",
             "FILTER_RANGE": "001"
@@ -15883,14 +15883,14 @@
           "hide_name": 0,
           "bits": [ 53, 69, 67, 65, 63, 61, 59, 57, 55, 51, 49, "0", "0", "0", "0", "0" ],
           "attributes": {
-            "src": "top.v:99.16-99.28"
+            "src": "top.v:94.16-94.28"
           }
         },
         "dac_word_square": {
           "hide_name": 0,
           "bits": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", 71, "0", "0", "0", "0", "0" ],
           "attributes": {
-            "src": "top.v:100.16-100.31"
+            "src": "top.v:95.16-95.31"
           }
         },
         "frame_end": {
@@ -15932,14 +15932,14 @@
           "hide_name": 0,
           "bits": [ 76 ],
           "attributes": {
-            "src": "top.v:92.9-92.21"
+            "src": "top.v:87.9-87.21"
           }
         },
         "frame_end_d2": {
           "hide_name": 0,
           "bits": [ 48 ],
           "attributes": {
-            "src": "top.v:93.9-93.21"
+            "src": "top.v:88.9-88.21"
           }
         },
         "lut_data": {
