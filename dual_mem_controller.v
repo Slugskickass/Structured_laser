@@ -19,7 +19,7 @@ module dual_mem_controller (
     initial begin
         // Loads hexadecimal values from external files into the memory arrays
         $readmemh("triangle.hex", mem_a); // Populates Channel A LUT [cite: 96]
-        $readmemh("square.hex",  mem_b);  // Populates Channel B LUT [cite: 97]
+        $readmemh("square_wave.hex",  mem_b);  // Populates Channel B LUT [cite: 97]
     end
 
     // Synchronous Read: BRAM output is updated on every rising clock edge 

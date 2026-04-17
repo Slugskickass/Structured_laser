@@ -79,19 +79,7 @@ module top (
             dac_word_square <= {4'b0000, squ_data[11:0]};
         end
             
-            //dac_word_square <= {4'b0000, squ_data[11:0]};
-            //dac_word_reg <= 16'b0000001111000000;
-    // -------------------------------------------------------------------------
-    // DAC SPI controller
-    // -------------------------------------------------------------------------
-    //pmod_da2_controller u_dac (
-    //    .CLK       (clk),
-    //    .data      (dac_word_reg),
-    //    .pmod_cs_n (pmod_cs_n),
-    //    .pmod_mosi (pmod_mosi),
-    //    .pmod_sclk (pmod_sclk),
-    //    .clockout  (pmod_clockout)
-    //);
+
     pmod_da2_2c_controller u_dual_dac (
         .CLK       (clk),
         .data_a    (dac_word_reg),
